@@ -1,14 +1,52 @@
 {
-"notes":[
-                  {
-                    "id": 1,
-                    "title": "Tiêu đề",
-                    "content": "Nội dung...",
-                    "priority": 2,
-                    "createdAt": "2024-01-01T12:00:00Z",
-                    "modifiedAt": "2024-01-02T12:00:00Z",
-                    "tags": ["work", "urgent"],
-                    "color": "#FFDD00"
-                  }
-                ]
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "12345",
+      "userId": 1,
+      "lastLogin": null,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "password1",
+      "userId": 2,
+      "lastLogin": null,
+      "status": "active"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": "Ghi chú 1",
+      "content": "Nội dung ghi chú 1",
+      "priority": 1,
+      "createdAt": "2023-10-01T10:00:00Z",
+      "modifiedAt": "2023-10-01T10:00:00Z",
+      "tags": "tag1,tag2",
+      "color": "4caf50"
+    },
+    {
+      "id": 2,
+      "title": "Ghi chú 2",
+      "content": "Nội dung ghi chú 2, đây là một ghi chú quan trọng",
+      "priority": 3,
+      "createdAt": "2023-10-02T12:00:00Z",
+      "modifiedAt": "2023-10-02T12:00:00Z",
+      "tags": "important,urgent",
+      "color": "ff0000"
+    },
+    {
+      "id": 3,
+      "title": "Ghi chú 3",
+      "content": "Nội dung ghi chú 3, cần hoàn thành trong tuần này",
+      "priority": 2,
+      "createdAt": "2023-10-03T09:00:00Z",
+      "modifiedAt": "2023-10-03T09:00:00Z",
+      "tags": "work,deadline",
+      "color": "2196f3"
+    }
+  ]
 }
