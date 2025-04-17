@@ -16,6 +16,14 @@
       "lastLogin": null,
       "status": "active"
     }
+    {
+      "id": 3,
+      "username": "HaiDang",
+      "password": "26072004",
+      "userId": 3,
+      "lastLogin": null,
+      "status": "active"
+    }
   ],
   "notes": [
     {
