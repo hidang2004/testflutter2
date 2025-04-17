@@ -2,7 +2,7 @@
   "accounts": [
     {
       "id": 1,
-      "username": "admin",
+      "username": "haidang",
       "password": "12345",
       "userId": 1,
       "lastLogin": null,
@@ -10,8 +10,8 @@
     },
     {
       "id": 2,
-      "username": "HaiDang",
-      "password": "26072004",
+      "username": "user1",
+      "password": "password1",
       "userId": 2,
       "lastLogin": null,
       "status": "active"
