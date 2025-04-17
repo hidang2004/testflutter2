@@ -1,60 +1,70 @@
 {
   "accounts": [
-                    {
-                      "id": 1,
-                      "username": "admin",
-                      "password": "12345",
-                      "userId": 1,
-                      "lastLogin": null,
-                      "status": "active"
-                    },
-                    {
-                      "id": 2,
-                      "username": "user1",
-                      "password": "password1",
-                      "userId": 2,
-                      "lastLogin": null,
-                      "status": "active"
-                    }
-                    {
-                      "id": 3,
-                      "username": "HaiDang",
-                      "password": "26072004",
-                      "userId": 3,
-                      "lastLogin": null,
-                      "status": "active"
-                    }
-                  ],
-              "notes": [
-                {
-                  "id": 1,
-                  "title": "Ghi chú 1",
-                  "content": "Nội dung ghi chú 1",
-                  "priority": 1,
-                  "createdAt": "2023-10-01T10:00:00Z",
-                  "modifiedAt": "2023-10-01T10:00:00Z",
-                  "tags": "tag1,tag2",
-                  "color": "4caf50"
-                },
-                {
-                  "id": 2,
-                  "title": "Ghi chú 2",
-                  "content": "Nội dung ghi chú 2, đây là một ghi chú quan trọng",
-                  "priority": 3,
-                  "createdAt": "2023-10-02T12:00:00Z",
-                  "modifiedAt": "2023-10-02T12:00:00Z",
-                  "tags": "important,urgent",
-                  "color": "ff0000"
-                },
-                {
-                  "id": 3,
-                  "title": "Ghi chú 3",
-                  "content": "Nội dung ghi chú 3, cần hoàn thành trong tuần này",
-                  "priority": 2,
-                  "createdAt": "2023-10-03T09:00:00Z",
-                  "modifiedAt": "2023-10-03T09:00:00Z",
-                  "tags": "work,deadline",
-                  "color": "2196f3"
-                }
-              ]
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "12345",
+      "userId": 1,
+      "lastLogin": null,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "password1",
+      "userId": 2,
+      "lastLogin": null,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "password2",
+      "userId": 3,
+      "lastLogin": null,
+      "status": "inactive"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": "Ghi chú quan trọng",
+      "content": "Đây là ghi chú quan trọng cần hoàn thành trước thứ 6.",
+      "priority": 3,
+      "createdAt": "2023-10-01T10:00:00Z",
+      "modifiedAt": "2023-10-01T10:00:00Z",
+      "tags": "urgent,work",
+      "color": "ff0000"
+    },
+    {
+      "id": 2,
+      "title": "Họp nhóm",
+      "content": "Chuẩn bị tài liệu cho buổi họp nhóm vào thứ 4.",
+      "priority": 2,
+      "createdAt": "2023-10-02T12:00:00Z",
+      "modifiedAt": "2023-10-02T12:00:00Z",
+      "tags": "meeting,team",
+      "color": "2196f3"
+    },
+    {
+      "id": 3,
+      "title": "Mua sắm",
+      "content": "Danh sách mua sắm: sữa, bánh mì, rau củ.",
+      "priority": 1,
+      "createdAt": "2023-10-03T09:00:00Z",
+      "modifiedAt": "2023-10-03T09:00:00Z",
+      "tags": "personal,shopping",
+      "color": "4caf50"
+    },
+    {
+      "id": 4,
+      "title": "Học Flutter",
+      "content": "Hoàn thành bài tập về StatefulWidget và StatelessWidget.",
+      "priority": 2,
+      "createdAt": "2023-10-04T15:00:00Z",
+      "modifiedAt": "2023-10-04T15:00:00Z",
+      "tags": "study,flutter",
+      "color": "ffeb3b"
+    }
+  ]
 }
